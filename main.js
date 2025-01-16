@@ -33,8 +33,8 @@ console.log(myObj);
 
 // decimal2
 
-const decimal2 = myNum / 1000;
-console.log(decimal2);
+const decimal2 = 60;
+console.log(decimal2.toFixed(2));
 
 /*
  * #3
@@ -59,17 +59,34 @@ console.log(decimal2);
 let myTest = 20;
 console.log(myTest)
 
-myTest += 10;
+myTest += 20;
 console.log(myTest)
 
-myTest -= 5;
+myTest -= 20;
 console.log(myTest)
 
-myTest *= 2;
+myTest *= 20;
 console.log(myTest)
 
 myTest /= myNum;
 console.log(myTest)
+
+
+
+
+
+
+
+
+const myNumberBig = 487;
+const myNumberSmol = 7;
+
+if (myNumberBig % myNumberSmol === 0) {
+    console.log('Ділиця');
+} else {
+    console.log('Не ділиця');
+}
+   
 
 myTest %= myNum + 0.413;
 console.log(myTest)
@@ -92,6 +109,11 @@ console.log(myRandom);
 const myPow = Math.pow(3,5);
 console.log(myPow);
 
+
+
+
+console.log(Math.random() );
+console.log(Math.floor(Math.random() * 101) );
 
 /*
  * #6
@@ -122,6 +144,11 @@ const isRama = isRamaPos !== -1;
 console.log(isRama);
 
 
+
+const isRamaTest = strObj.str.includes('рама');
+console.log(isRamaTest);
+
+
 /*
  * #8
  *
@@ -148,5 +175,4 @@ const someStr = 'some STRING';
 console.log(someStr);
 console.log(someStr.toUpperCase());
 console.log(someStr.toLowerCase());
-// var upperStr
-// var lowerStr
+
